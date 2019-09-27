@@ -1,0 +1,9 @@
+# SPSS-Modeler, SPSS Modeler
+There are occassions that we need to set a global parameter based on a SQL query result. In this situation, you just need to create a SQL node,
+Put SQL query and make sure it gets the desired result, create a Set Global node and link it to SQL node.
+
+in Set Global node, pick your field by using 'Pick from the set of available fields' and select one of MEAN, SUM, MIN, MAX, SDEV for it and
+then check corresponding checkbox for 'Default oeration(s)'.
+
+You can decide to either 'Clear all globals before executing' or not.
+Same thing for 'Display preview of globals created after execution.'. Personally I uncheck it once I get assured that it is working just fine.
